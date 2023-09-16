@@ -28,7 +28,7 @@ This project consists of a Flappy Bird game from this [repo](https://github.com/
 
 - **Q-learning Updates**: After each action, the agent updates the Q-values in the Q-table using the Q-learning algorithm with a learning rate (α) and discount factor (γ). The Q-learning update formula is as follows:
 
-$Q(s, a) = (1-α) * Q(s, a) + α * [R(s) + γ * max(Q(s', a')) - Q(s, a)]$
+$$Q(s, a) = (1-α) * Q(s, a) + α * [R(s) + γ * max(Q(s', a')) - Q(s, a)]$$
 
 Where:
 - `Q(s, a)` is the Q-value for state `s` and action `a`.
